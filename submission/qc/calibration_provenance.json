@@ -1,0 +1,2921 @@
+{
+  "method": "CAL-01: ghi nhận và bàn giao kết quả calibration nhóm",
+  "decision_recorded_by": "102",
+  "basis": "Theo xác nhận của 102: nhóm đã họp, trao đổi và kiểm chứng theo tiến trình học tập, dựa trên guideline và hiểu biết của nhóm. 102 được giao ghi nhận, tổng hợp kết quả. Kiểm tra bằng code là bằng chứng kỹ thuật riêng; chưa tự ghi phê duyệt QC độc lập.",
+  "scope": [
+    "img_001.jpg",
+    "img_002.jpg",
+    "img_003.jpg",
+    "img_004.jpg",
+    "img_005.jpg",
+    "img_006.jpg",
+    "img_007.jpg",
+    "img_008.jpg",
+    "img_009.jpg",
+    "img_010.jpg",
+    "img_011.jpg",
+    "img_012.jpg",
+    "img_013.jpg",
+    "img_014.jpg",
+    "img_015.jpg",
+    "img_016.jpg",
+    "img_017.jpg",
+    "img_018.jpg",
+    "img_019.jpg",
+    "img_020.jpg",
+    "img_021.jpg",
+    "img_022.jpg",
+    "img_023.jpg",
+    "img_024.jpg",
+    "img_025.jpg",
+    "img_026.jpg",
+    "img_027.jpg",
+    "img_028.jpg",
+    "img_029.jpg",
+    "img_030.jpg",
+    "img_031.jpg",
+    "img_032.jpg",
+    "img_033.jpg",
+    "img_034.jpg",
+    "img_035.jpg",
+    "img_036.jpg",
+    "img_037.jpg",
+    "img_038.jpg",
+    "img_039.jpg",
+    "img_040.jpg"
+  ],
+  "versioned_coco": {
+    "path": "submission/qc/labels_calibrated_c1e28a1b5e429ed7.json",
+    "sha256": "a0ef12c9f71ffe9714c49028034c7dc4cbfdf3c3426465c74032895fb7838205"
+  },
+  "selected_sources": [
+    {
+      "image": "img_001.jpg",
+      "compared_members": [
+        "102",
+        "103"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 8,
+      "n_can_review": 1
+    },
+    {
+      "image": "img_002.jpg",
+      "compared_members": [
+        "101",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 10,
+      "n_can_review": 10
+    },
+    {
+      "image": "img_003.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 15,
+      "n_can_review": 9
+    },
+    {
+      "image": "img_004.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 3,
+      "n_can_review": 3
+    },
+    {
+      "image": "img_005.jpg",
+      "compared_members": [
+        "102",
+        "103"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 15,
+      "n_can_review": 9
+    },
+    {
+      "image": "img_006.jpg",
+      "compared_members": [
+        "101",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 12,
+      "n_can_review": 10
+    },
+    {
+      "image": "img_007.jpg",
+      "compared_members": [
+        "102",
+        "103"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 2,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_008.jpg",
+      "compared_members": [
+        "101",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 11,
+      "n_can_review": 11
+    },
+    {
+      "image": "img_009.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 10,
+      "n_can_review": 10
+    },
+    {
+      "image": "img_010.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 6,
+      "n_can_review": 6
+    },
+    {
+      "image": "img_011.jpg",
+      "compared_members": [
+        "102",
+        "103"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 31,
+      "n_can_review": 16
+    },
+    {
+      "image": "img_012.jpg",
+      "compared_members": [
+        "101",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 3,
+      "n_can_review": 3
+    },
+    {
+      "image": "img_013.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 8,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_014.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 5,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_015.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 7,
+      "n_can_review": 2
+    },
+    {
+      "image": "img_016.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 5,
+      "n_can_review": 4
+    },
+    {
+      "image": "img_017.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 0,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_018.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 5,
+      "n_can_review": 3
+    },
+    {
+      "image": "img_019.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 20,
+      "n_can_review": 19
+    },
+    {
+      "image": "img_020.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 0,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_021.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 15,
+      "n_can_review": 9
+    },
+    {
+      "image": "img_022.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 1,
+      "n_can_review": 1
+    },
+    {
+      "image": "img_023.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 9,
+      "n_can_review": 4
+    },
+    {
+      "image": "img_024.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 7,
+      "n_can_review": 4
+    },
+    {
+      "image": "img_025.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 11,
+      "n_can_review": 6
+    },
+    {
+      "image": "img_026.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 3,
+      "n_can_review": 3
+    },
+    {
+      "image": "img_027.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 0,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_028.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 2,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_029.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 8,
+      "n_can_review": 5
+    },
+    {
+      "image": "img_030.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 6,
+      "n_can_review": 2
+    },
+    {
+      "image": "img_031.jpg",
+      "compared_members": [
+        "101",
+        "103"
+      ],
+      "selected_member": "101",
+      "source_path": "submission/labels/101.json",
+      "source_sha256": "d1be9cfec25f7ade146de156b2c8f62e2400536f40c2004c0adb8aaeee804cf4",
+      "n_annotations": 11,
+      "n_can_review": 9
+    },
+    {
+      "image": "img_032.jpg",
+      "compared_members": [
+        "102",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 19,
+      "n_can_review": 19
+    },
+    {
+      "image": "img_033.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 0,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_034.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 19,
+      "n_can_review": 12
+    },
+    {
+      "image": "img_035.jpg",
+      "compared_members": [
+        "102",
+        "103"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 15,
+      "n_can_review": 8
+    },
+    {
+      "image": "img_036.jpg",
+      "compared_members": [
+        "101",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 3,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_037.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 2,
+      "n_can_review": 1
+    },
+    {
+      "image": "img_038.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 0,
+      "n_can_review": 0
+    },
+    {
+      "image": "img_039.jpg",
+      "compared_members": [
+        "101",
+        "102"
+      ],
+      "selected_member": "102",
+      "source_path": "submission/labels/102.json",
+      "source_sha256": "03b601151443d09357ffd233f7db1696a6e627a8c47460c356b50925d1e649fe",
+      "n_annotations": 25,
+      "n_can_review": 11
+    },
+    {
+      "image": "img_040.jpg",
+      "compared_members": [
+        "103",
+        "104"
+      ],
+      "selected_member": "104",
+      "source_path": "submission/labels/104.json",
+      "source_sha256": "e0bd9b9f868287908a22e9e2903a283d1d1d206552516a01bf7c089d1e4a67ca",
+      "n_annotations": 5,
+      "n_can_review": 5
+    }
+  ],
+  "annotation_id_mapping": [
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 1,
+      "output_annotation_id": 1,
+      "class": "truck"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 2,
+      "output_annotation_id": 2,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 3,
+      "output_annotation_id": 3,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 4,
+      "output_annotation_id": 4,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 5,
+      "output_annotation_id": 5,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 6,
+      "output_annotation_id": 6,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 7,
+      "output_annotation_id": 7,
+      "class": "person"
+    },
+    {
+      "image": "img_001.jpg",
+      "source_member": "102",
+      "source_annotation_id": 8,
+      "output_annotation_id": 8,
+      "class": "person"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 1,
+      "output_annotation_id": 9,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 2,
+      "output_annotation_id": 10,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 3,
+      "output_annotation_id": 11,
+      "class": "truck"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 4,
+      "output_annotation_id": 12,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 5,
+      "output_annotation_id": 13,
+      "class": "person"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 6,
+      "output_annotation_id": 14,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 7,
+      "output_annotation_id": 15,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 8,
+      "output_annotation_id": 16,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 9,
+      "output_annotation_id": 17,
+      "class": "car"
+    },
+    {
+      "image": "img_002.jpg",
+      "source_member": "104",
+      "source_annotation_id": 10,
+      "output_annotation_id": 18,
+      "class": "car"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 11,
+      "output_annotation_id": 19,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 12,
+      "output_annotation_id": 20,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 13,
+      "output_annotation_id": 21,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 14,
+      "output_annotation_id": 22,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 15,
+      "output_annotation_id": 23,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 16,
+      "output_annotation_id": 24,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 17,
+      "output_annotation_id": 25,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 18,
+      "output_annotation_id": 26,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 19,
+      "output_annotation_id": 27,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 20,
+      "output_annotation_id": 28,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 21,
+      "output_annotation_id": 29,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 22,
+      "output_annotation_id": 30,
+      "class": "car"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 23,
+      "output_annotation_id": 31,
+      "class": "car"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 24,
+      "output_annotation_id": 32,
+      "class": "person"
+    },
+    {
+      "image": "img_003.jpg",
+      "source_member": "104",
+      "source_annotation_id": 25,
+      "output_annotation_id": 33,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_004.jpg",
+      "source_member": "101",
+      "source_annotation_id": 11,
+      "output_annotation_id": 34,
+      "class": "person"
+    },
+    {
+      "image": "img_004.jpg",
+      "source_member": "101",
+      "source_annotation_id": 12,
+      "output_annotation_id": 35,
+      "class": "person"
+    },
+    {
+      "image": "img_004.jpg",
+      "source_member": "101",
+      "source_annotation_id": 13,
+      "output_annotation_id": 36,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 45,
+      "output_annotation_id": 37,
+      "class": "van"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 46,
+      "output_annotation_id": 38,
+      "class": "van"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 47,
+      "output_annotation_id": 39,
+      "class": "car"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 48,
+      "output_annotation_id": 40,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 49,
+      "output_annotation_id": 41,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 50,
+      "output_annotation_id": 42,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 51,
+      "output_annotation_id": 43,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 52,
+      "output_annotation_id": 44,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 53,
+      "output_annotation_id": 45,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 54,
+      "output_annotation_id": 46,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 55,
+      "output_annotation_id": 47,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 56,
+      "output_annotation_id": 48,
+      "class": "person"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 57,
+      "output_annotation_id": 49,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 58,
+      "output_annotation_id": 50,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_005.jpg",
+      "source_member": "102",
+      "source_annotation_id": 59,
+      "output_annotation_id": 51,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 26,
+      "output_annotation_id": 52,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 27,
+      "output_annotation_id": 53,
+      "class": "car"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 28,
+      "output_annotation_id": 54,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 29,
+      "output_annotation_id": 55,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 30,
+      "output_annotation_id": 56,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 31,
+      "output_annotation_id": 57,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 32,
+      "output_annotation_id": 58,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 33,
+      "output_annotation_id": 59,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 34,
+      "output_annotation_id": 60,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 35,
+      "output_annotation_id": 61,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 36,
+      "output_annotation_id": 62,
+      "class": "person"
+    },
+    {
+      "image": "img_006.jpg",
+      "source_member": "104",
+      "source_annotation_id": 37,
+      "output_annotation_id": 63,
+      "class": "person"
+    },
+    {
+      "image": "img_007.jpg",
+      "source_member": "102",
+      "source_annotation_id": 60,
+      "output_annotation_id": 64,
+      "class": "truck"
+    },
+    {
+      "image": "img_007.jpg",
+      "source_member": "102",
+      "source_annotation_id": 61,
+      "output_annotation_id": 65,
+      "class": "truck"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 38,
+      "output_annotation_id": 66,
+      "class": "person"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 39,
+      "output_annotation_id": 67,
+      "class": "person"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 40,
+      "output_annotation_id": 68,
+      "class": "person"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 41,
+      "output_annotation_id": 69,
+      "class": "person"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 42,
+      "output_annotation_id": 70,
+      "class": "person"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 43,
+      "output_annotation_id": 71,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 44,
+      "output_annotation_id": 72,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 45,
+      "output_annotation_id": 73,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 46,
+      "output_annotation_id": 74,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 47,
+      "output_annotation_id": 75,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_008.jpg",
+      "source_member": "104",
+      "source_annotation_id": 48,
+      "output_annotation_id": 76,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 47,
+      "output_annotation_id": 77,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 48,
+      "output_annotation_id": 78,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 49,
+      "output_annotation_id": 79,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 50,
+      "output_annotation_id": 80,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 51,
+      "output_annotation_id": 81,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 52,
+      "output_annotation_id": 82,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 53,
+      "output_annotation_id": 83,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 54,
+      "output_annotation_id": 84,
+      "class": "person"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 55,
+      "output_annotation_id": 85,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_009.jpg",
+      "source_member": "101",
+      "source_annotation_id": 56,
+      "output_annotation_id": 86,
+      "class": "person"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 49,
+      "output_annotation_id": 87,
+      "class": "person"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 50,
+      "output_annotation_id": 88,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 51,
+      "output_annotation_id": 89,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 52,
+      "output_annotation_id": 90,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 53,
+      "output_annotation_id": 91,
+      "class": "person"
+    },
+    {
+      "image": "img_010.jpg",
+      "source_member": "104",
+      "source_annotation_id": 54,
+      "output_annotation_id": 92,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 70,
+      "output_annotation_id": 93,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 71,
+      "output_annotation_id": 94,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 72,
+      "output_annotation_id": 95,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 73,
+      "output_annotation_id": 96,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 74,
+      "output_annotation_id": 97,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 75,
+      "output_annotation_id": 98,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 76,
+      "output_annotation_id": 99,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 77,
+      "output_annotation_id": 100,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 78,
+      "output_annotation_id": 101,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 79,
+      "output_annotation_id": 102,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 80,
+      "output_annotation_id": 103,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 81,
+      "output_annotation_id": 104,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 82,
+      "output_annotation_id": 105,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 83,
+      "output_annotation_id": 106,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 84,
+      "output_annotation_id": 107,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 85,
+      "output_annotation_id": 108,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 86,
+      "output_annotation_id": 109,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 87,
+      "output_annotation_id": 110,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 88,
+      "output_annotation_id": 111,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 89,
+      "output_annotation_id": 112,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 90,
+      "output_annotation_id": 113,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 91,
+      "output_annotation_id": 114,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 92,
+      "output_annotation_id": 115,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 93,
+      "output_annotation_id": 116,
+      "class": "person"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 94,
+      "output_annotation_id": 117,
+      "class": "van"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 95,
+      "output_annotation_id": 118,
+      "class": "car"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 96,
+      "output_annotation_id": 119,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 97,
+      "output_annotation_id": 120,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 98,
+      "output_annotation_id": 121,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 99,
+      "output_annotation_id": 122,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_011.jpg",
+      "source_member": "102",
+      "source_annotation_id": 100,
+      "output_annotation_id": 123,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_012.jpg",
+      "source_member": "104",
+      "source_annotation_id": 55,
+      "output_annotation_id": 124,
+      "class": "car"
+    },
+    {
+      "image": "img_012.jpg",
+      "source_member": "104",
+      "source_annotation_id": 56,
+      "output_annotation_id": 125,
+      "class": "van"
+    },
+    {
+      "image": "img_012.jpg",
+      "source_member": "104",
+      "source_annotation_id": 57,
+      "output_annotation_id": 126,
+      "class": "truck"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 58,
+      "output_annotation_id": 127,
+      "class": "truck"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 59,
+      "output_annotation_id": 128,
+      "class": "car"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 60,
+      "output_annotation_id": 129,
+      "class": "car"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 61,
+      "output_annotation_id": 130,
+      "class": "car"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 62,
+      "output_annotation_id": 131,
+      "class": "person"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 63,
+      "output_annotation_id": 132,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 64,
+      "output_annotation_id": 133,
+      "class": "truck"
+    },
+    {
+      "image": "img_013.jpg",
+      "source_member": "104",
+      "source_annotation_id": 65,
+      "output_annotation_id": 134,
+      "class": "car"
+    },
+    {
+      "image": "img_014.jpg",
+      "source_member": "101",
+      "source_annotation_id": 61,
+      "output_annotation_id": 135,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_014.jpg",
+      "source_member": "101",
+      "source_annotation_id": 62,
+      "output_annotation_id": 136,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_014.jpg",
+      "source_member": "101",
+      "source_annotation_id": 63,
+      "output_annotation_id": 137,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_014.jpg",
+      "source_member": "101",
+      "source_annotation_id": 64,
+      "output_annotation_id": 138,
+      "class": "person"
+    },
+    {
+      "image": "img_014.jpg",
+      "source_member": "101",
+      "source_annotation_id": 65,
+      "output_annotation_id": 139,
+      "class": "person"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 112,
+      "output_annotation_id": 140,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 113,
+      "output_annotation_id": 141,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 114,
+      "output_annotation_id": 142,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 115,
+      "output_annotation_id": 143,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 116,
+      "output_annotation_id": 144,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 117,
+      "output_annotation_id": 145,
+      "class": "car"
+    },
+    {
+      "image": "img_015.jpg",
+      "source_member": "102",
+      "source_annotation_id": 118,
+      "output_annotation_id": 146,
+      "class": "car"
+    },
+    {
+      "image": "img_016.jpg",
+      "source_member": "104",
+      "source_annotation_id": 66,
+      "output_annotation_id": 147,
+      "class": "person"
+    },
+    {
+      "image": "img_016.jpg",
+      "source_member": "104",
+      "source_annotation_id": 67,
+      "output_annotation_id": 148,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_016.jpg",
+      "source_member": "104",
+      "source_annotation_id": 68,
+      "output_annotation_id": 149,
+      "class": "van"
+    },
+    {
+      "image": "img_016.jpg",
+      "source_member": "104",
+      "source_annotation_id": 69,
+      "output_annotation_id": 150,
+      "class": "van"
+    },
+    {
+      "image": "img_016.jpg",
+      "source_member": "104",
+      "source_annotation_id": 70,
+      "output_annotation_id": 151,
+      "class": "person"
+    },
+    {
+      "image": "img_018.jpg",
+      "source_member": "101",
+      "source_annotation_id": 74,
+      "output_annotation_id": 152,
+      "class": "car"
+    },
+    {
+      "image": "img_018.jpg",
+      "source_member": "101",
+      "source_annotation_id": 75,
+      "output_annotation_id": 153,
+      "class": "car"
+    },
+    {
+      "image": "img_018.jpg",
+      "source_member": "101",
+      "source_annotation_id": 76,
+      "output_annotation_id": 154,
+      "class": "car"
+    },
+    {
+      "image": "img_018.jpg",
+      "source_member": "101",
+      "source_annotation_id": 77,
+      "output_annotation_id": 155,
+      "class": "car"
+    },
+    {
+      "image": "img_018.jpg",
+      "source_member": "101",
+      "source_annotation_id": 78,
+      "output_annotation_id": 156,
+      "class": "car"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 71,
+      "output_annotation_id": 157,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 72,
+      "output_annotation_id": 158,
+      "class": "car"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 73,
+      "output_annotation_id": 159,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 74,
+      "output_annotation_id": 160,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 75,
+      "output_annotation_id": 161,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 76,
+      "output_annotation_id": 162,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 77,
+      "output_annotation_id": 163,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 78,
+      "output_annotation_id": 164,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 79,
+      "output_annotation_id": 165,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 80,
+      "output_annotation_id": 166,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 81,
+      "output_annotation_id": 167,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 82,
+      "output_annotation_id": 168,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 83,
+      "output_annotation_id": 169,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 84,
+      "output_annotation_id": 170,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 85,
+      "output_annotation_id": 171,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 86,
+      "output_annotation_id": 172,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 87,
+      "output_annotation_id": 173,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 88,
+      "output_annotation_id": 174,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 89,
+      "output_annotation_id": 175,
+      "class": "person"
+    },
+    {
+      "image": "img_019.jpg",
+      "source_member": "104",
+      "source_annotation_id": 90,
+      "output_annotation_id": 176,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 79,
+      "output_annotation_id": 177,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 80,
+      "output_annotation_id": 178,
+      "class": "car"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 81,
+      "output_annotation_id": 179,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 82,
+      "output_annotation_id": 180,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 83,
+      "output_annotation_id": 181,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 84,
+      "output_annotation_id": 182,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 85,
+      "output_annotation_id": 183,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 86,
+      "output_annotation_id": 184,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 87,
+      "output_annotation_id": 185,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 88,
+      "output_annotation_id": 186,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 89,
+      "output_annotation_id": 187,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 90,
+      "output_annotation_id": 188,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 91,
+      "output_annotation_id": 189,
+      "class": "person"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 92,
+      "output_annotation_id": 190,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_021.jpg",
+      "source_member": "101",
+      "source_annotation_id": 93,
+      "output_annotation_id": 191,
+      "class": "car"
+    },
+    {
+      "image": "img_022.jpg",
+      "source_member": "104",
+      "source_annotation_id": 91,
+      "output_annotation_id": 192,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 92,
+      "output_annotation_id": 193,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 93,
+      "output_annotation_id": 194,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 94,
+      "output_annotation_id": 195,
+      "class": "car"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 95,
+      "output_annotation_id": 196,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 96,
+      "output_annotation_id": 197,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 97,
+      "output_annotation_id": 198,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 98,
+      "output_annotation_id": 199,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 99,
+      "output_annotation_id": 200,
+      "class": "person"
+    },
+    {
+      "image": "img_023.jpg",
+      "source_member": "104",
+      "source_annotation_id": 100,
+      "output_annotation_id": 201,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 94,
+      "output_annotation_id": 202,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 95,
+      "output_annotation_id": 203,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 96,
+      "output_annotation_id": 204,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 97,
+      "output_annotation_id": 205,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 98,
+      "output_annotation_id": 206,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 99,
+      "output_annotation_id": 207,
+      "class": "car"
+    },
+    {
+      "image": "img_024.jpg",
+      "source_member": "101",
+      "source_annotation_id": 100,
+      "output_annotation_id": 208,
+      "class": "car"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 101,
+      "output_annotation_id": 209,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 102,
+      "output_annotation_id": 210,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 103,
+      "output_annotation_id": 211,
+      "class": "car"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 104,
+      "output_annotation_id": 212,
+      "class": "car"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 105,
+      "output_annotation_id": 213,
+      "class": "person"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 106,
+      "output_annotation_id": 214,
+      "class": "car"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 107,
+      "output_annotation_id": 215,
+      "class": "car"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 108,
+      "output_annotation_id": 216,
+      "class": "person"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 109,
+      "output_annotation_id": 217,
+      "class": "person"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 110,
+      "output_annotation_id": 218,
+      "class": "person"
+    },
+    {
+      "image": "img_025.jpg",
+      "source_member": "101",
+      "source_annotation_id": 111,
+      "output_annotation_id": 219,
+      "class": "person"
+    },
+    {
+      "image": "img_026.jpg",
+      "source_member": "104",
+      "source_annotation_id": 101,
+      "output_annotation_id": 220,
+      "class": "person"
+    },
+    {
+      "image": "img_026.jpg",
+      "source_member": "104",
+      "source_annotation_id": 102,
+      "output_annotation_id": 221,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_026.jpg",
+      "source_member": "104",
+      "source_annotation_id": 103,
+      "output_annotation_id": 222,
+      "class": "person"
+    },
+    {
+      "image": "img_028.jpg",
+      "source_member": "102",
+      "source_annotation_id": 140,
+      "output_annotation_id": 223,
+      "class": "truck"
+    },
+    {
+      "image": "img_028.jpg",
+      "source_member": "102",
+      "source_annotation_id": 141,
+      "output_annotation_id": 224,
+      "class": "car"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 104,
+      "output_annotation_id": 225,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 105,
+      "output_annotation_id": 226,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 106,
+      "output_annotation_id": 227,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 107,
+      "output_annotation_id": 228,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 108,
+      "output_annotation_id": 229,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 109,
+      "output_annotation_id": 230,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 110,
+      "output_annotation_id": 231,
+      "class": "person"
+    },
+    {
+      "image": "img_029.jpg",
+      "source_member": "104",
+      "source_annotation_id": 111,
+      "output_annotation_id": 232,
+      "class": "person"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 114,
+      "output_annotation_id": 233,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 115,
+      "output_annotation_id": 234,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 116,
+      "output_annotation_id": 235,
+      "class": "person"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 117,
+      "output_annotation_id": 236,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 118,
+      "output_annotation_id": 237,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_030.jpg",
+      "source_member": "101",
+      "source_annotation_id": 119,
+      "output_annotation_id": 238,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 120,
+      "output_annotation_id": 239,
+      "class": "person"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 121,
+      "output_annotation_id": 240,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 122,
+      "output_annotation_id": 241,
+      "class": "person"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 123,
+      "output_annotation_id": 242,
+      "class": "car"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 124,
+      "output_annotation_id": 243,
+      "class": "car"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 125,
+      "output_annotation_id": 244,
+      "class": "car"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 126,
+      "output_annotation_id": 245,
+      "class": "person"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 127,
+      "output_annotation_id": 246,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 128,
+      "output_annotation_id": 247,
+      "class": "person"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 129,
+      "output_annotation_id": 248,
+      "class": "person"
+    },
+    {
+      "image": "img_031.jpg",
+      "source_member": "101",
+      "source_annotation_id": 130,
+      "output_annotation_id": 249,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 112,
+      "output_annotation_id": 250,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 113,
+      "output_annotation_id": 251,
+      "class": "car"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 114,
+      "output_annotation_id": 252,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 115,
+      "output_annotation_id": 253,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 116,
+      "output_annotation_id": 254,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 117,
+      "output_annotation_id": 255,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 118,
+      "output_annotation_id": 256,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 119,
+      "output_annotation_id": 257,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 120,
+      "output_annotation_id": 258,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 121,
+      "output_annotation_id": 259,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 122,
+      "output_annotation_id": 260,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 123,
+      "output_annotation_id": 261,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 124,
+      "output_annotation_id": 262,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 125,
+      "output_annotation_id": 263,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 126,
+      "output_annotation_id": 264,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 127,
+      "output_annotation_id": 265,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 128,
+      "output_annotation_id": 266,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 129,
+      "output_annotation_id": 267,
+      "class": "person"
+    },
+    {
+      "image": "img_032.jpg",
+      "source_member": "104",
+      "source_annotation_id": 130,
+      "output_annotation_id": 268,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 131,
+      "output_annotation_id": 269,
+      "class": "car"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 132,
+      "output_annotation_id": 270,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 133,
+      "output_annotation_id": 271,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 134,
+      "output_annotation_id": 272,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 135,
+      "output_annotation_id": 273,
+      "class": "car"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 136,
+      "output_annotation_id": 274,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 137,
+      "output_annotation_id": 275,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 138,
+      "output_annotation_id": 276,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 139,
+      "output_annotation_id": 277,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 140,
+      "output_annotation_id": 278,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 141,
+      "output_annotation_id": 279,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 142,
+      "output_annotation_id": 280,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 143,
+      "output_annotation_id": 281,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 144,
+      "output_annotation_id": 282,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 145,
+      "output_annotation_id": 283,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 146,
+      "output_annotation_id": 284,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 147,
+      "output_annotation_id": 285,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 148,
+      "output_annotation_id": 286,
+      "class": "person"
+    },
+    {
+      "image": "img_034.jpg",
+      "source_member": "104",
+      "source_annotation_id": 149,
+      "output_annotation_id": 287,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 190,
+      "output_annotation_id": 288,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 191,
+      "output_annotation_id": 289,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 192,
+      "output_annotation_id": 290,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 193,
+      "output_annotation_id": 291,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 194,
+      "output_annotation_id": 292,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 195,
+      "output_annotation_id": 293,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 196,
+      "output_annotation_id": 294,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 197,
+      "output_annotation_id": 295,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 198,
+      "output_annotation_id": 296,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 199,
+      "output_annotation_id": 297,
+      "class": "person"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 200,
+      "output_annotation_id": 298,
+      "class": "car"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 201,
+      "output_annotation_id": 299,
+      "class": "car"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 202,
+      "output_annotation_id": 300,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 203,
+      "output_annotation_id": 301,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_035.jpg",
+      "source_member": "102",
+      "source_annotation_id": 204,
+      "output_annotation_id": 302,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_036.jpg",
+      "source_member": "104",
+      "source_annotation_id": 150,
+      "output_annotation_id": 303,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_036.jpg",
+      "source_member": "104",
+      "source_annotation_id": 151,
+      "output_annotation_id": 304,
+      "class": "car"
+    },
+    {
+      "image": "img_036.jpg",
+      "source_member": "104",
+      "source_annotation_id": 152,
+      "output_annotation_id": 305,
+      "class": "car"
+    },
+    {
+      "image": "img_037.jpg",
+      "source_member": "102",
+      "source_annotation_id": 205,
+      "output_annotation_id": 306,
+      "class": "person"
+    },
+    {
+      "image": "img_037.jpg",
+      "source_member": "102",
+      "source_annotation_id": 206,
+      "output_annotation_id": 307,
+      "class": "truck"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 207,
+      "output_annotation_id": 308,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 208,
+      "output_annotation_id": 309,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 209,
+      "output_annotation_id": 310,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 210,
+      "output_annotation_id": 311,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 211,
+      "output_annotation_id": 312,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 212,
+      "output_annotation_id": 313,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 213,
+      "output_annotation_id": 314,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 214,
+      "output_annotation_id": 315,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 215,
+      "output_annotation_id": 316,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 216,
+      "output_annotation_id": 317,
+      "class": "person"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 217,
+      "output_annotation_id": 318,
+      "class": "car"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 218,
+      "output_annotation_id": 319,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 219,
+      "output_annotation_id": 320,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 220,
+      "output_annotation_id": 321,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 221,
+      "output_annotation_id": 322,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 222,
+      "output_annotation_id": 323,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 223,
+      "output_annotation_id": 324,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 224,
+      "output_annotation_id": 325,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 225,
+      "output_annotation_id": 326,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 226,
+      "output_annotation_id": 327,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 227,
+      "output_annotation_id": 328,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 228,
+      "output_annotation_id": 329,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 229,
+      "output_annotation_id": 330,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 230,
+      "output_annotation_id": 331,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_039.jpg",
+      "source_member": "102",
+      "source_annotation_id": 231,
+      "output_annotation_id": 332,
+      "class": "ignore_region"
+    },
+    {
+      "image": "img_040.jpg",
+      "source_member": "104",
+      "source_annotation_id": 153,
+      "output_annotation_id": 333,
+      "class": "car"
+    },
+    {
+      "image": "img_040.jpg",
+      "source_member": "104",
+      "source_annotation_id": 154,
+      "output_annotation_id": 334,
+      "class": "motorcycle"
+    },
+    {
+      "image": "img_040.jpg",
+      "source_member": "104",
+      "source_annotation_id": 155,
+      "output_annotation_id": 335,
+      "class": "person"
+    },
+    {
+      "image": "img_040.jpg",
+      "source_member": "104",
+      "source_annotation_id": 156,
+      "output_annotation_id": 336,
+      "class": "car"
+    },
+    {
+      "image": "img_040.jpg",
+      "source_member": "104",
+      "source_annotation_id": 157,
+      "output_annotation_id": 337,
+      "class": "van"
+    }
+  ],
+  "pipeline": {
+    "prepare_command": "python -B -X utf8 scripts/prepare_calibration.py",
+    "build_command": "python -B -X utf8 scripts/build_final.py --calibrated submission/qc/labels_calibrated_c1e28a1b5e429ed7.json",
+    "scripts_unmodified": true
+  },
+  "payload_preservation": {
+    "reason": "Unmodified build_final.py uses make_ann(), which outputs only taxonomy attributes and omits other source payload fields. After the normal build, restore exact source annotation payloads; retain generated IDs, image/class mappings and CSV. Refresh manifest hashes transparently.",
+    "before_labels_sha256": "39c77f0dac8926911bf60688220671e24a445168997f8c98cc172e90640064c2",
+    "after_labels_sha256": "c0bbdc7ff61488d961312fa7a506b2fec1249f3bd3d27c2efc7fd59cbfc697be",
+    "before_manifest_sha256": "9d01d72cd018ad45e2514f7831888cb0c4d01b7d5c0243cf30583d0f682fd5a2",
+    "restored_fields_counts": {
+      "attributes.rotation": 337,
+      "attributes.occluded": 337,
+      "segmentation": 337,
+      "area": 41,
+      "attributes.truncated": 14,
+      "attributes.can_review": 14,
+      "attributes.occluded_level": 14
+    },
+    "before_artifact_copies": "work/calibration_handoff/build_final.generated.json and batch_manifest.generated.json"
+  },
+  "status": "Awaiting Person 4 visual QC; not Release",
+  "document_revision": {
+    "annotation_payloads_unchanged": true,
+    "annotation_ids_unchanged": true,
+    "reason": "Cập nhật diễn đạt để ghi nhận hoạt động calibration nhóm theo xác nhận 102, tách rõ bằng chứng kỹ thuật và phê duyệt QC."
+  }
+}
