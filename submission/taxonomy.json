@@ -1,18 +1,59 @@
 {
-  "version": "v0",
+  "version": "v1.0",
   "ignore_class": "ignore_region",
   "classes": [
-    {"name": "car", "definition": "Ô tô con, SUV."},
-    {"name": "truck", "definition": "Xe tải, xe có thùng hàng riêng."},
-    {"name": "van", "definition": "Xe thùng kín cỡ nhỏ."},
-    {"name": "motorcycle", "definition": "Xe máy, mô tô."},
-    {"name": "person", "definition": "Người đi bộ hoặc người ngồi trên xe."},
-    {"name": "ignore_region", "definition": "Vùng bỏ qua (không phải vật): nơi không gán từng vật, bỏ sót ở đây không tính là lỗi."}
+    {
+      "name": "car",
+      "definition": "Ô tô con chở người: sedan, hatchback, wagon, SUV, MPV thân xe con và taxi; không gồm pickup có thùng riêng."
+    },
+    {
+      "name": "truck",
+      "definition": "Xe có cabin và khu vực chở hàng tách biệt về cấu trúc: thùng hở, thùng kín gắn sau cabin, pickup và xe chở xe."
+    },
+    {
+      "name": "van",
+      "definition": "Xe thân hộp có khoang sau liền thân, dùng chở hàng hoặc ít người; không gồm MPV thân xe con hoặc xe buýt lớn."
+    },
+    {
+      "name": "motorcycle",
+      "definition": "Xe hai bánh có động cơ: xe máy, xe tay ga, mô tô; không gồm xe đạp, xích lô, tuk-tuk hoặc xe ba bánh."
+    },
+    {
+      "name": "person",
+      "definition": "Người thật ở mọi tư thế, gồm người đi bộ, người lái và hành khách; không gồm tượng, ma-nơ-canh, hình in hoặc người chỉ thấy qua phản chiếu."
+    },
+    {
+      "name": "ignore_region",
+      "definition": "Vùng hẹp có đối tượng đích quá nhỏ, quá che hoặc không tách được cá thể để gán đáng tin cậy; không dùng chỉ vì vật ngoài taxonomy."
+    }
   ],
   "attributes": [
-    {"name": "occluded_level", "type": "select", "values": ["0", "1", "2", "3"], "default": "0"},
-    {"name": "truncated", "type": "select", "values": ["no", "yes"], "default": "no"},
-    {"name": "can_review", "type": "checkbox", "values": [], "default": "false"}
+    {
+      "name": "occluded_level",
+      "type": "select",
+      "values": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "default": "0"
+    },
+    {
+      "name": "truncated",
+      "type": "select",
+      "values": [
+        "no",
+        "yes"
+      ],
+      "default": "no"
+    },
+    {
+      "name": "can_review",
+      "type": "checkbox",
+      "values": [],
+      "default": "false"
+    }
   ],
   "rules": {
     "min_box_height_px": 20,

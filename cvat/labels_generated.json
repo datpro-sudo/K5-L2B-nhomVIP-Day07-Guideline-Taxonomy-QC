@@ -1,6 +1,7 @@
 [
   {
     "name": "car",
+    "type": "rectangle",
     "color": "#e6194b",
     "attributes": [
       {
@@ -8,34 +9,27 @@
         "mutable": false,
         "input_type": "select",
         "default_value": "0",
-        "values": [
-          "0",
-          "1",
-          "2",
-          "3"
-        ]
+        "values": ["0", "1", "2", "3"]
       },
       {
         "name": "truncated",
         "mutable": false,
         "input_type": "select",
         "default_value": "no",
-        "values": [
-          "no",
-          "yes"
-        ]
+        "values": ["no", "yes"]
       },
       {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
         "default_value": "false",
-        "values": []
+        "values": ["false"]
       }
     ]
   },
   {
     "name": "truck",
+    "type": "rectangle",
     "color": "#3cb44b",
     "attributes": [
       {
@@ -43,34 +37,27 @@
         "mutable": false,
         "input_type": "select",
         "default_value": "0",
-        "values": [
-          "0",
-          "1",
-          "2",
-          "3"
-        ]
+        "values": ["0", "1", "2", "3"]
       },
       {
         "name": "truncated",
         "mutable": false,
         "input_type": "select",
         "default_value": "no",
-        "values": [
-          "no",
-          "yes"
-        ]
+        "values": ["no", "yes"]
       },
       {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
         "default_value": "false",
-        "values": []
+        "values": ["false"]
       }
     ]
   },
   {
     "name": "van",
+    "type": "rectangle",
     "color": "#4363d8",
     "attributes": [
       {
@@ -78,34 +65,27 @@
         "mutable": false,
         "input_type": "select",
         "default_value": "0",
-        "values": [
-          "0",
-          "1",
-          "2",
-          "3"
-        ]
+        "values": ["0", "1", "2", "3"]
       },
       {
         "name": "truncated",
         "mutable": false,
         "input_type": "select",
         "default_value": "no",
-        "values": [
-          "no",
-          "yes"
-        ]
+        "values": ["no", "yes"]
       },
       {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
         "default_value": "false",
-        "values": []
+        "values": ["false"]
       }
     ]
   },
   {
     "name": "motorcycle",
+    "type": "rectangle",
     "color": "#f58231",
     "attributes": [
       {
@@ -113,34 +93,27 @@
         "mutable": false,
         "input_type": "select",
         "default_value": "0",
-        "values": [
-          "0",
-          "1",
-          "2",
-          "3"
-        ]
+        "values": ["0", "1", "2", "3"]
       },
       {
         "name": "truncated",
         "mutable": false,
         "input_type": "select",
         "default_value": "no",
-        "values": [
-          "no",
-          "yes"
-        ]
+        "values": ["no", "yes"]
       },
       {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
         "default_value": "false",
-        "values": []
+        "values": ["false"]
       }
     ]
   },
   {
     "name": "person",
+    "type": "rectangle",
     "color": "#911eb4",
     "attributes": [
       {
@@ -148,34 +121,27 @@
         "mutable": false,
         "input_type": "select",
         "default_value": "0",
-        "values": [
-          "0",
-          "1",
-          "2",
-          "3"
-        ]
+        "values": ["0", "1", "2", "3"]
       },
       {
         "name": "truncated",
         "mutable": false,
         "input_type": "select",
         "default_value": "no",
-        "values": [
-          "no",
-          "yes"
-        ]
+        "values": ["no", "yes"]
       },
       {
         "name": "can_review",
         "mutable": false,
         "input_type": "checkbox",
         "default_value": "false",
-        "values": []
+        "values": ["false"]
       }
     ]
   },
   {
     "name": "ignore_region",
+    "type": "rectangle",
     "color": "#808080",
     "attributes": []
   }
