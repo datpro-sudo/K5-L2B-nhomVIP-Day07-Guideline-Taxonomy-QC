@@ -1,0 +1,67 @@
+[
+  {
+    "command": [
+      "scripts/split_assign.py",
+      "--members",
+      "2A202603289,2A202603292,2A202603280,2A202603278",
+      "--copy-images"
+    ],
+    "exit_code": 0,
+    "stdout": "\nTổng 40 ảnh, 4 người, mỗi ảnh 2 người gán độc lập (seed=42).\nmã thành viên  số ảnh\n2A202603289       20\n2A202603292       20\n2A202603280       20\n2A202603278       20\n\nĐã ghi: submission\\qc\\assignment.csv và submission\\qc\\assignments/<mã>.txt\nĐã copy ảnh của từng người vào work/<mã>/images/ -> upload thư mục này lên CVAT.\n\nQUAN TRỌNG: chỉ gán ảnh trong danh sách của MÌNH và KHÔNG xem nhãn của người khác trước khi nộp.\nCommit file assignment.csv này để cả nhóm dùng chung một bản.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/validate_labels.py",
+      "--all"
+    ],
+    "exit_code": 0,
+    "stdout": "submission\\labels\\2A202603289.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603292.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603280.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603278.json: hợp lệ về cấu trúc, 20 ảnh.\nReviewer kiểm box có đúng vật, đúng lớp, ôm sát và có bỏ sót hay không.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/qc_compare.py"
+    ],
+    "exit_code": 0,
+    "stdout": "Đã so sánh 40 ảnh, 4 người gán, 232 cặp box ghép.\nLượt gán: 80/80. Ca cần xem: 1133 trên 33 ảnh.\nĐối chiếu guideline và ảnh tham chiếu để tìm lỗi chung của nhiều người.\n\nĐã ghi vào submission\\qc/: iaa_summary.json|md, calibration_candidates.csv, image_scores.csv, consensus_draft.json, flagged_images.txt\nBước tiếp: python scripts/viz_disagreement.py --images flagged\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/validate_labels.py",
+      "--all"
+    ],
+    "exit_code": 0,
+    "stdout": "submission\\labels\\2A202603289.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603292.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603280.json: hợp lệ về cấu trúc, 20 ảnh.\nsubmission\\labels\\2A202603278.json: hợp lệ về cấu trúc, 20 ảnh.\nReviewer kiểm box có đúng vật, đúng lớp, ôm sát và có bỏ sót hay không.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/qc_compare.py"
+    ],
+    "exit_code": 0,
+    "stdout": "Đã so sánh 40 ảnh, 4 người gán, 232 cặp box ghép.\nLượt gán: 80/80. Ca cần xem: 1133 trên 33 ảnh.\nĐối chiếu guideline và ảnh tham chiếu để tìm lỗi chung của nhiều người.\n\nĐã ghi vào submission\\qc/: iaa_summary.json|md, calibration_candidates.csv, image_scores.csv, consensus_draft.json, flagged_images.txt\nBước tiếp: python scripts/viz_disagreement.py --images flagged\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/build_final.py",
+      "--calibrated",
+      "submission\\qc\\labels_calibrated_885065160c3267e1.json"
+    ],
+    "exit_code": 0,
+    "stdout": "Đã gộp 40 ảnh, 337 annotation. Bước tiếp: python scripts/qc_sample.py.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "scripts/qc_sample.py",
+      "--round",
+      "1"
+    ],
+    "exit_code": 0,
+    "stdout": "Vòng 1: 40/40 ảnh. Phiếu: submission\\qc\\reviews\\round-01\\qc_review.csv.\nĐối chiếu ảnh tại work\\review\\round-01 rồi chạy python scripts/qc_report.py --round 1.\n",
+    "stderr": ""
+  }
+]

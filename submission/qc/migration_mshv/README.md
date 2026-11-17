@@ -1,0 +1,3 @@
+# Chuyển định danh theo xác nhận người dùng
+
+Ánh xạ tại submission/member_ids.json. Không đổi nhãn/ảnh phân công hoặc phê duyệt calibration. verification.json chứng minh các bất biến; commands.json ghi lệnh thực tế. IAA và chuỗi manifest được tái tạo từ đầu vào đã đổi tên, không sửa các số đo để đạt ngưỡng. build_final chuẩn hóa các trường phụ nên payload nguồn được giữ lại sau khi so khớp ảnh, ID, lớp, box và thuộc tính đối tượng; hash được ghi minh bạch trong verification.json. Hồ sơ calibration_provenance/calibration_verification/calibration_protected_inputs ở thư mục cha là bản lịch sử trước chuyển mã, không phải kiểm chứng hiện hành. Bản đầy đủ trước chuyển mã được lưu cục bộ trong work/mshv_migration/before.

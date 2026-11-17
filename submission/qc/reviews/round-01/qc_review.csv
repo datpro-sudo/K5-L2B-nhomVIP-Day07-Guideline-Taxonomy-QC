@@ -1,0 +1,47 @@
+image,object_id,error_type,reviewer,rule_id,region,note
+img_001.jpg,,,,,,
+img_002.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_003.jpg,21,thua,2A202603278,"R-01, R-06",,AI-assisted visual review; human confirmation pending. Box motorcycle trên xe đạp có bánh nan hoa ở trái người gánh hàng; xe đạp ngoài taxonomy.
+img_003.jpg,19,sai_vi_tri_kich_thuoc,2A202603278,"R-02, R-11",,AI-assisted visual review; human confirmation pending. Một box motorcycle bao nhiều xe đỗ dọc mép trên phải; cần tách cá thể hoặc ignore hẹp phần không tách được.
+img_004.jpg,,,,,,
+img_005.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_006.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_007.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_008.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_009.jpg,,,,,,
+img_010.jpg,87,sai_vi_tri_kich_thuoc,2A202603278,"R-02, R-06",,AI-assisted visual review; human confirmation pending. Box person phía trái bao cả người đội mũ đỏ và người đội mũ trắng phía sau; cần tách từng người.
+img_011.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_012.jpg,126,sai_vi_tri_kich_thuoc,2A202603278,"R-03, R-05",,"AI-assisted visual review; human confirmation pending. Box truck dừng ở y=584, bỏ phần cửa thùng đang hạ nhìn thấy tới đáy ảnh y=640."
+img_013.jpg,130,sai_lop,2A202603278,R-02,,"AI-assisted visual review; human confirmation pending. Box car [381.61,413.49,35.65,91.68] nằm trên người áo sáng đứng trên vỉa hè, cần person."
+img_014.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_015.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_016.jpg,149,sai_vi_tri_kich_thuoc,2A202603278,"R-03, R-05",,AI-assisted visual review; human confirmation pending. Box van chỉ tới x=842 nhưng thân xe trắng còn nhìn thấy tới mép phải ảnh; cần kiểm cả phần sau.
+img_016.jpg,,bo_sot,2A202603278,"R-01, R-06","Người áo tím, đầu khoảng (108,390), thân khoảng x=55..155, y=380..470 trong tuk-tuk trái.",AI-assisted visual review; human confirmation pending. Người thật ngồi trong tuk-tuk phía trái chưa có box person riêng.
+img_017.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_018.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_019.jpg,,,,,,
+img_020.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_021.jpg,,bo_sot,2A202603278,"R-02, R-06","Người quay lưng khoảng x=145..235, y=343..450, phía trên-trái mũ hoa ở tiền cảnh.",AI-assisted visual review; human confirmation pending. Người áo trắng ngồi quay lưng bên trái người đội mũ hoa có phần đầu/thân rõ nhưng không có person riêng.
+img_022.jpg,,,,,,
+img_023.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_024.jpg,,,,,,
+img_025.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_026.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_027.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_028.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_029.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_030.jpg,234,sai_vi_tri_kich_thuoc,2A202603278,R-11,,"AI-assisted visual review; human confirmation pending. Vùng ignore x=0..620,y=55..295 phủ nhiều xe có thân/biển/bánh nhận diện được và cao hơn 20 px; cần thu hẹp và gán từng xe rõ."
+img_031.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_032.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_033.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_034.jpg,286,sai_vi_tri_kich_thuoc,2A202603278,R-03,,AI-assisted visual review; human confirmation pending. Box người qua đường kéo xuống y=498 trong khi bàn chân dừng khoảng y=438; còn khoảng đường trống lớn dưới chân.
+img_035.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_036.jpg,303,sai_lop,2A202603278,R-02,,AI-assisted visual review; human confirmation pending. Xe xanh tiền cảnh có cabin và thùng hàng riêng nhưng mang lớp motorcycle; phải truck.
+img_036.jpg,304,sai_lop,2A202603278,"R-02, R-11",,AI-assisted visual review; human confirmation pending. Box car bên phải nằm trên cụm xe máy; cần tách motorcycle hoặc ignore hẹp phần không tách được.
+img_036.jpg,305,sai_lop,2A202603278,"R-02, R-11",,AI-assisted visual review; human confirmation pending. Box car bên trái nằm trên cụm xe máy cạnh thùng xe tải.
+img_037.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_038.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_039.jpg,,khong,2A202603278,,,AI-assisted visual pass: no definite additional error identified. Human approval pending; not a Release confirmation.
+img_040.jpg,334,thua,2A202603278,"R-01, R-06",,AI-assisted visual review; human confirmation pending. Box motorcycle nằm trên tuk-tuk vàng/xanh; phương tiện này ngoài taxonomy hiện tại.
+img_040.jpg,337,thua,2A202603278,"R-01, R-02",,AI-assisted visual review; human confirmation pending. Box van nằm trên xe buýt lớn ở nền; bus lớn ngoài taxonomy hiện tại.
+img_040.jpg,336,sai_vi_tri_kich_thuoc,2A202603278,R-03,,"AI-assisted visual review; human confirmation pending. Box taxi bắt đầu y=189, bỏ phần mui trắng và biển taxi nhìn thấy phía trên ở khoảng y=65..190."

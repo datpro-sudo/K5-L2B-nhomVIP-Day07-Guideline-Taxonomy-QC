@@ -1,0 +1,7 @@
+image,reason,status
+img_001.jpg,Kiểm lại các box person phía trái: có thể trùng cá thể; cần phân biệt người ngồi và phần thân/chân nhìn thấy.,pending_human_confirmation
+img_004.jpg,Xác nhận box person 34 và 36 là hai người hay hai phần nhìn thấy của cùng tài xế.,pending_human_confirmation
+img_009.jpg,Chốt van/bus cho xe khách trung tâm và kiểm các box nhỏ ở nền theo ảnh gốc.,pending_human_confirmation
+img_019.jpg,Chốt xe thật/đạo cụ và rà từng người trong đám đông; chưa xác nhận sạch.,pending_human_confirmation
+img_022.jpg,Xác nhận có người trong ghế phụ/sidecar hay chỉ ghế và chi tiết xe.,pending_human_confirmation
+img_024.jpg,Chốt vật xe vàng trên nóc là xe thật chưa hoàn thiện hay mô hình.,pending_human_confirmation

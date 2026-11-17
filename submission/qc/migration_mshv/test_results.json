@@ -1,0 +1,19 @@
+{
+  "full_suite": {
+    "tests_run": 21,
+    "passed": 20,
+    "errors": 1,
+    "error_test": "test_assignment_rejects_unsafe_member_and_symlink_destination",
+    "reason": "Windows WinError 1314: symlink creation privilege unavailable"
+  },
+  "student_id_regression": {
+    "passed": true,
+    "covers": [
+      "assignment preservation",
+      "MSHV label validation",
+      "IAA",
+      "final build",
+      "QC reviewer MSHV"
+    ]
+  }
+}
