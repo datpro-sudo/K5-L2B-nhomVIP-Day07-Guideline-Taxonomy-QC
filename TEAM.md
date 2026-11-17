@@ -10,7 +10,7 @@
 - Mã thành viên : 101, 102, 103, 104
 - Người điều phối: 101
 - Người phụ trách review bản cuối: 104
-- Commit chốt bài: Mem 4 report - QC
+- Commit chốt bài: docs: add individual note for member 103
 
 ## Kết quả tóm tắt
 
